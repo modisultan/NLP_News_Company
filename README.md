@@ -3,7 +3,7 @@
 
 ### Abstract:
 
-A News company want to know  what news topics people are interested in and prefer, which helps the company attracting largest number of people.
+A News company want to know what news topics people are interested in and prefer, which helps the company attracting largest number of people.
 
 ### Data Description:
 
