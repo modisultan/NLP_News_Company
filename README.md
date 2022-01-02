@@ -12,6 +12,7 @@ it contains of 32000 rows and 2 columns.
 Columns contains:
 1) headline: contains headlines from  different news sites 
 2) clickbait: which 1 represents it is clickbait and 0 represents non-clickbait
+3) Deployment: after we do classification experiments we will chooses the best experiment and deploy it with Flaska using PyCharm
 
 
 
