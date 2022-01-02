@@ -3,8 +3,7 @@
 
 ### Abstract:
 
-A News company want to know what news topics people are interested in and prefer, which helps the company attracting largest number of people.
-
+A News company want to know  what news topics people are interested in and prefer, which helps the company attracting largest number of people.
 ### Data Description:
 
 The data will be used in this project is provided by <a href="https://www.kaggle.com/amananandrai/clickbait-dataset">Kaggle</a>. 
@@ -13,6 +12,7 @@ it contains of 32000 rows and 2 columns.
 Columns contains:
 1) headline: contains headlines from  different news sites 
 2) clickbait: which 1 represents it is clickbait and 0 represents non-clickbait
+
 
 
  What we gonna use: 
@@ -36,9 +36,13 @@ Columns contains:
 
 • NLTK
 
-• Keras
-
+• Keras 
 
 ### Communication:
 
-The slides are provided  in <a href="https://prezi.com/view/nGNUmOHkqRuDGpmBNGdQ/">Presentation</a>.
+
+ <a href="https://github.com/modisultan">Modhi github</a> and Email: modi_sultan@outlook.com.
+ 
+
+ <a href="https://github.com/RazanAlzahrani1">Razan github</a> and Email: irazanalzahrani@gmail.com. 
+
