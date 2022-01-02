@@ -1,54 +1,33 @@
-# NLP News Company
+# Stroke_Classification
 
 
 ### Abstract:
 
-A News company want to know  what news topics people are interested in and prefer, which helps the company attracting largest number of people.
-
-### Design:
-
-This project is one of the T5 Data Science Boot Camp requirements. the data provided
-by <a href="https://www.kaggle.com/amananandrai/clickbait-dataset">Kaggle</a>. 
-
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
+In this project our goal is to predict whether a patient is likely to get stroke based on the input (features). 
 
 ### Data Description:
-The data will be used in this project is provided by <a href="https://www.kaggle.com/amananandrai/clickbait-dataset">Kaggle</a>. it contains of 32000 rows and 2.
 
-##### Columns contains:
+The data will be used in this project is provided by <a href="https://www.kaggle.com/fedesoriano/stroke-prediction-dataset">Kaggle</a>. 
+Each row in the data provides relavant information about the patient, it contains of 5110 rows and 12 columns.
 
-  <ol>
-  <li>headline: contains headlines from different news sites </li>
-    
-  <li>clickbait: which 1 represents it is clickbait and 0 represents non-clickbait </li>
-  </ol>
-  
-##### What we gonna do:
-
- <ol>
-  <li>Topic Modeling: To find the topic of the text and create new column topic</li>
-    
-  <li>Nlb Classification: depending on the topics from topic modeling, classify it to know what
-type of news are clicked the most and predict what is the type of news depending on
-headline news </li>
-
-  <li> Deployment: after we do classification experiments we will chooses the best experiment and deploy it with Flaska using PyCharm  </li>
-  </ol>
+1) id: unique identifier
+2) gender: "Male", "Female" or "Other"
+3) age: age of the patient
+4) hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+5) heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
+6) ever_married: "No" or "Yes"
+7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+8) Residence_type: "Rural" or "Urban"
+9) avg_glucose_level: average glucose level in blood
+10) bmi: body mass index
+11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
+12) stroke: 1 if the patient had a stroke or 0 if not.
 
 ### Tools:
 
 •	Numpy and Pandas for data manipulation 
 
-•	Matplotlie and Seaborn and WordCloud for visualise data
+•	Matplotlie and Seaborn for visualise data
 
-•	Sklearn 
-
-• NLTK
-
-• Keras 
-
-• Flask and Pycharm for deployment 
-
-### Communication:
-
-The slides are provided  in <a href="https://prezi.com/view/nGNUmOHkqRuDGpmBNGdQ/">Presentation</a> and proposal provided at 
-<a href="https://github.com/RazanAlzahrani1/NLP_News_Company#readme">README</a> file.
+•	Sklearn for modle training
