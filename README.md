@@ -38,6 +38,11 @@ Columns contains:
 
 • Keras 
 
+
+### slides :
+The slides are provided  in <a href="https://prezi.com/view/nGNUmOHkqRuDGpmBNGdQ/">Presentation</a>.
+
+
 ### Communication:
 
 
@@ -46,5 +51,3 @@ Columns contains:
 
  <a href="https://github.com/RazanAlzahrani1">Razan github</a> and Email: irazanalzahrani@gmail.com. 
 
-### slides :
-The slides are provided  in <a href="https://prezi.com/view/nGNUmOHkqRuDGpmBNGdQ/">Presentation</a>.
